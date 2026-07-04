@@ -1,0 +1,25 @@
+extends Area3D
+
+var player_inside = null
+
+func _ready():
+	# ربط الإشارات لمعرفة دخول وخروج اللاعب من منطقة البيت
+	body_entered.connect(_on_body_entered)
+	body_exited.connect(_on_body_exited)
+
+func _on_body_entered(body):
+	if body.name == "Player":
+		player_inside = body
+		print("اضغطي E للاختباء داخل البيت!")
+
+func _on_body_exited(body):
+	if body.name == "Player":
+		player_inside = null
+
+func _process(delta):
+	# لو اللاعب جوه المنطقة وضغط E يستخبي أو يخرج
+	if player_inside and Input.is_action_just_pressed("interact"):
+		if player_inside.is_hidden:
+			player_inside.hide_in_house(false) # يخرج للشارع
+		else:
+			player_inside.hide_in_house(true) # يستخبي جوه البيت

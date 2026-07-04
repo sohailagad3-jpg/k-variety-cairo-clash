@@ -1,0 +1,18 @@
+# K-Variety Cairo Clash: The Hide & Shoot Battle 🇪🇬 🇰🇷
+
+An action-packed, comedy-style 3D multiplayer game inspired by **Run BTS!** variety shows and the historic neighborhoods of Cairo and Seoul. 
+
+## 🎮 Game Concept
+This game is designed as a cultural bridge for the **GKS (Global Korea Scholarship)** application. It blends the competitive, hilarious spirit of Korean variety games (played by idols like Jungkook) with the architectural beauty of Egyptian traditional alleys and Korean Hanok houses.
+
+### Key Features:
+* **Hide & Seek Mechanics:** Players can infiltrate traditional houses, hide under tables, or disguise behind furniture to escape laser paintballs.
+* **Vertical Gameplay:** Jump across Egyptian rooftops and Seoul balconies for strategic shooting spots.
+* **Paintball Shooting:** Non-violent, colorful laser paint guns inspired by Korean water-bomb challenges.
+
+## 🛠️ Tech Stack & Architecture
+* **Game Engine:** Godot Engine 4.x (GDScript)
+* **Mechanics Implemented:** Character Locomotion (Walk, Sprint, Jump), Dynamic Hiding System, and Raycast Painting.
+
+## 🎓 Why this matters for GKS?
+This project demonstrates my technical capability in Software Engineering / Game Design, and proves my passion for fostering digital cultural diplomacy between Egypt and South Korea.
